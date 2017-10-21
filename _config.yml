@@ -6,5 +6,4 @@ highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
-plugins: [jekyll-paginate]
 permalink: /:year/:month/:title.html
