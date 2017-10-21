@@ -115,6 +115,10 @@ main {
     color: rgba(0,0,0,.75);
     font-weight: lighter;   
 }
+
+.description {
+    word-wrap: break-word;
+}
 /* /main */
 
 /* post */
