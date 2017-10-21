@@ -1,26 +1,20 @@
 <div class="ui card">
-    <!-- https://stackoverflow.com/questions/25463865/in-jekyll-how-do-i-grab-a-posts-first-image -->
-<!-- 
-    {% assign foundImage = 0 %}
-    {% assign images = post.content | split:"<img " %}
+
+<!--     {% assign foundImage = 0 %}
+    {% assign images = post.content | split:"<img" %}
     {% for image in images %}
         {% if image contains 'src' %}
             {% if foundImage == 0 %}
-                {% assign html = image | split:"/>" | first %}
-                {% assign tags = html | split:" " %}
-                {% for tag in tags %}
-                    {% if tag contains 'src' %}
-                        <div class="image">
-                            <img {{ tag }}>
-                        </div>
-                        {% break %}
-                    {% endif %}
-                {% endfor %}
+                {% assign html = image | split:">" | first %}
+                <div class="image">
+                    <img {{ html }} />
+                </div> 
                 {% assign foundImage = 1 %}
+                {% break %}
             {% endif %}
         {% endif %}
     {% endfor %} -->
-    
+
     <div class="content">
         <a class="header" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 15 }}</a>
         <div class="meta">
@@ -39,5 +33,10 @@
         <a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.url}}">
             0 Comments
         </a>
+        {% if post.author %}
+        <div class="right floated author">
+            <img class="ui avatar image" src="/assets/img/profile.jpg"> {{ post.author }}
+        </div>
+        {% endif %}
     </div>
 </div>
