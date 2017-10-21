@@ -1,0 +1,24 @@
+@media all and (max-width: 890px) {
+    #head-search {
+        display: none;
+    }
+}
+
+
+@media all and (max-width: 600px) {
+    .right.menu {
+        display: none !important;
+    }
+
+    header {
+        max-width: 95%;
+    }
+
+    .site-logo {
+        max-width: 30%;
+    }
+
+    main {
+        max-width: 95%;
+    }
+}

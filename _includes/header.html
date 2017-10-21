@@ -1,0 +1,46 @@
+<div class="header-wrapper">
+    <header>
+        <!-- logo and description -->
+        {% if page.layout != "post" %}
+        <div class="head-area">
+            <h1 class="site-logo">
+                <img src="/assets/img/logo.png" class="logo"/>
+            </h1>
+            <h3 class="site-description">{{ site.description }}</h3>
+        </div>
+        {% endif %}
+        <nav class="site-nav">
+            <div class="left-nav">
+                <!-- add titles to all buttons -->
+                <div class="ui secondary menu inverted">
+                    <a class="item" href="/">
+                        Home
+                    </a>
+                    <a class="item" href="/about.html">
+                        About
+                    </a>
+                    <a class="item" href="/archive.html">
+                        Archive
+                    </a>
+                    <div class="right menu">
+                        <div id="head-search" class="ui category search item">
+                            <div class="ui transparent icon input">
+                                <input placeholder="Search..." type="text" id="search-input" onkeypress="handleKeyPress()">
+                                <i class="search link icon" onclick="handleSubmit()"></i>
+                            </div>
+                        </div>
+
+                        <a class="item" href="http://stallman.org/facebook.html">
+                            <i class="facebook link icon"></i>
+                        </a>
+                        <a class="item" href="https://github.com/abhn">
+                            <i class="github link icon"></i>
+                        </a>
+                        <a class="item" href="/feed.xml">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-nav"></div>
+        </nav>
+    </header>
+</div>

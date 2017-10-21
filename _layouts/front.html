@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<!-- one, two and then four card rows -->
+<div class="ui centered grid stackable">
+    {% assign counter = 0 %}
+    {% for post in site.posts %}
+        {% assign counter = counter | plus: 1 %}
+        {% if counter == 1 %}
+            <div class="eight wide column">
+                {% include card.html %}
+            </div>
+        {% elsif counter == 2 %}
+            <div class="eight wide column">
+                {% include card.html %}
+            </div>
+        {% elsif counter <= 10 %}
+            <div class="four wide column">
+                {% include card.html %}
+            </div>
+        {% else %}
+            {% if counter == 11 %}
+                <div class="ui horizontal divider">
+                    Older Posts
+                </div>
+            {% endif %}
+            <div class="sixteen wide column">
+                <div class="ui middle aligned selection list">
+                    <div class="item">
+                        <div class="header">
+                            {{ post.title | strip_html | truncatewords: 15 }}
+                            <small class="small-date">{{ post.date | date_to_string }}</small>
+                        </div>
+                        {{ post.content | strip_html | truncatewords: 30 }}
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'nagekar';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>

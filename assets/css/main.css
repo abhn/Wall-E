@@ -1,0 +1,121 @@
+
+    Import League Gothic <3
+*/
+@font-face {
+    font-family: 'League Gothic';
+    src: url('leaguegothic-regular-webfont.eot');
+    src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('leaguegothic-regular-webfont.woff') format('woff'),
+    url('leaguegothic-regular-webfont.ttf') format('truetype'),
+    url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* header */
+
+.header-wrapper {
+    max-height: 100%;
+    background-color: black;
+}
+
+header {
+    max-width: 80%;
+    margin: 0 auto;
+    background-image: url(/assets/img/bg.jpg);
+    background-size: cover;
+    color: rgba(255, 255, 255, .7);
+}
+
+.site-logo {
+    max-width: 15%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 20%;
+}
+
+.site-description {
+    font-family: "League Gothic", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+}
+
+
+/* /header */
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: 1rem;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+/* footer */
+
+footer {
+    color: rgba(255, 255, 255, .5) !important;    
+    background-color: black;
+    height: 6rem;
+    padding-top: 1rem;
+}
+
+.footer-wrapper { 
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.ui.transparent.icon.input {
+    color: rgba(255, 255, 255, .75) !important;
+}
+
+.ui.transparent.icon.input input:focus {
+    color: rgba(255, 255, 255, .75) !important;
+}
+
+
+
+/* /footer */
+
+/* main */
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.ui.card {
+    width: auto !important;
+}
+
+.ui.card image  {
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.image {
+    max-width: 500px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+.small-date {
+    color: rgba(0,0,0,.7);
+    font-weight: lighter;   
+}
+
+/* post */
+
+.post-container {
+    font-family: "Open Sans", sans-serif;
+}
