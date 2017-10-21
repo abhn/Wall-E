@@ -42,19 +42,19 @@ Wall-E is fully furnished right out of the box. To use this template on your blo
 
 ## Screenshots (Desktop)
 <img src="https://github.com/abhn/Wall-E/blob/master/tmp/desktop.png?raw=true">
-##### Homepage
+### Homepage
 <img src="https://github.com/abhn/Wall-E/blob/master/tmp/desktop-post.png?raw=true">
-##### Sample post
+### Sample post
 
 ## Screenshots (Mobile)
 <img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile.png?raw=true">
-##### Homepage (Portrait)
+### Homepage (Portrait)
 <img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile-landscape.png?raw=true">
-##### Homepage (Landscape)
+### Homepage (Landscape)
 <img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile-post.png?raw=true">
-##### Sample post (Portrait)
+### Sample post (Portrait)
 <img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile-landscape-footer.png?raw=true">
-##### Footer (Landscape)
+### Footer (Landscape)
 
 
 ## Credits
