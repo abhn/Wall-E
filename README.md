@@ -2,7 +2,7 @@
 
 Wall-E is a modern Jekyll template with a magazine-like grid layout on the frontpage, beautiful typography and uncomplicated content. 
 
-<img src="https://github.com/abhn/Wall-E/blob/master/tmp/desktop-post.png?raw=true">
+<img src="https://github.com/abhn/Wall-E/blob/master/tmp/desktop.png?raw=true">
 
 ## Contents
 
