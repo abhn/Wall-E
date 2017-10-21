@@ -22,10 +22,13 @@ Wall-E is a modern Jekyll template with a magazine-like grid layout on the front
 
 - Mobile responsive, built with Semantic UI, customization is easy
 - Disqus is integrated by default
+- One column layout suitable for personal blogs with focus on content
+- Beautiful typography (uses League Gothic and Open Sans)
 - Feature image can be added to homescreen post cards
 - Search box links to Google search by default
 
 ## Usage
+
 Wall-E is fully furnished right out of the box. To use this template on your blog
 - If this is your first Jekyll blog, follow this <a href="https://jekyllrb.com/docs/installation/">helpful guide</a> to set up Jekyll.
 - Fork this repository, rename the fork as `your-username.github.io`. Your blog should immediately be live on `https://your-username.github.io`
