@@ -4,6 +4,7 @@ title: Syntax Highlighting Post
 description: "Demo post displaying the various ways of highlighting code in Markdown."
 modified: 2016-06-01T15:27:45-04:00
 tags: [sample post, code, highlighting]
+author: Abhishek
 image:
   feature: abstract-10.jpg
   credit: dargadgetz
@@ -18,13 +19,13 @@ Syntax highlighting is a feature that displays source code, in different colors 
 
 GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) are supported. To modify styling and highlight colors edit `/_sass/syntax.scss`.
 
-```css
+{% highlight css %}
 #container {
   float: left;
   margin: 0 -240px 0 0;
   width: 100%;
 }
-```
+{% endhighlight %}
 
 {% highlight scss %}
 .highlight {
@@ -36,7 +37,7 @@ GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/c
 }
 {% endhighlight %}
 
-```html
+{% highlight html %}
 {% raw %}<nav class="pagination" role="navigation">
   {% if page.previous %}
     <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
@@ -45,7 +46,7 @@ GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/c
     <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
   {% endif %}
 </nav><!-- /.pagination -->{% endraw %}
-```
+{% endhighlight %}
 
 {% highlight html linenos %}
 {% raw %}<nav class="pagination" role="navigation">
@@ -58,7 +59,7 @@ GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/c
 </nav><!-- /.pagination -->{% endraw %}
 {% endhighlight %}
 
-```ruby
+{% highlight ruby %}
 module Jekyll
   class TagIndex < Page
     def initialize(site, base, dir, tag)
@@ -76,7 +77,7 @@ module Jekyll
     end
   end
 end
-```
+{% endhighlight %}
 
 ### Code Blocks in Lists
 
@@ -85,10 +86,10 @@ Indentation matters. Be sure the indent of the code block aligns with the first 
 1. Do step 1.
 2. Now do this:
    
-   ```ruby
+  {% highlight ruby %}
    def print_hi(name)
      puts "Hi, #{name}"
    end
    print_hi('Tom')
    #=> prints 'Hi, Tom' to STDOUT.
-   ```
+   {% endhighlight %}
