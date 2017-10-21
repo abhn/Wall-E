@@ -16,6 +16,10 @@ html, body {
     height: 100%;
 }
 
+img, video {
+    width: 100%;
+}
+
 /* header */
 
 .header-wrapper {
@@ -28,7 +32,7 @@ header {
     margin: 0 auto;
     background-image: url(/assets/img/bg.jpg);
     background-size: cover;
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, .75);
 }
 
 .site-logo {
@@ -63,7 +67,7 @@ header {
 /* footer */
 
 footer {
-    color: rgba(255, 255, 255, .5) !important;    
+    color: rgba(255, 255, 255, .75) !important;    
     background-color: black;
     height: 6rem;
     padding-top: 1rem;
@@ -81,8 +85,6 @@ footer {
 .ui.transparent.icon.input input:focus {
     color: rgba(255, 255, 255, .75) !important;
 }
-
-
 
 /* /footer */
 
@@ -110,9 +112,10 @@ main {
 }
 
 .small-date {
-    color: rgba(0,0,0,.7);
+    color: rgba(0,0,0,.75);
     font-weight: lighter;   
 }
+/* /main */
 
 /* post */
 
