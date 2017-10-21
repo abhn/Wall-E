@@ -41,20 +41,26 @@ Wall-E is fully furnished right out of the box. To use this template on your blo
 - `assets/js/main.js`: Any common javascript goes here. If you wish to customize the search behaviour (for example, use a different search engine), that can be done here.
 
 ## Screenshots (Desktop)
-<img src="https://github.com/abhn/Wall-E/blob/master/tmp/desktop.png?raw=true">
+
 ### Homepage
-<img src="https://github.com/abhn/Wall-E/blob/master/tmp/desktop-post.png?raw=true">
+<img src="https://github.com/abhn/Wall-E/blob/master/tmp/desktop.png?raw=true">
+
 ### Sample post
+<img src="https://github.com/abhn/Wall-E/blob/master/tmp/desktop-post.png?raw=true">
 
 ## Screenshots (Mobile)
-<img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile.png?raw=true">
+
 ### Homepage (Portrait)
-<img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile-landscape.png?raw=true">
+<img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile.png?raw=true">
+
 ### Homepage (Landscape)
-<img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile-post.png?raw=true">
+<img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile-landscape.png?raw=true">
+
 ### Sample post (Portrait)
-<img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile-landscape-footer.png?raw=true">
+<img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile-post.png?raw=true">
+
 ### Footer (Landscape)
+<img src="https://github.com/abhn/Wall-E/blob/master/tmp/mobile-landscape-footer.png?raw=true">
 
 
 ## Credits
