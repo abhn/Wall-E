@@ -16,8 +16,8 @@ html, body {
     height: 100%;
 }
 
-img, video {
-    width: 100%;
+img, video, iframe {
+    max-width: 100%;
 }
 
 /* header */
