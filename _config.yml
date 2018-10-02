@@ -1,5 +1,5 @@
-title : Wall-E - Jekyll
-description: 'A Modern Jekyll Theme'
+title : Marco A. Gutiérrez
+description: 'Marco A. Gutiérrez'
 
 markdown: kramdown
 highlighter: rouge
@@ -7,4 +7,5 @@ logo: false
 paginate: 15
 baseurl: /
 plugins: [jekyll-gist]
+plugins: [jekyll-scholar]
 permalink: /:year/:month/:title.html

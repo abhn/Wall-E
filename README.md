@@ -77,3 +77,8 @@ Wall-E is fully furnished right out of the box. To use this template on your blo
 ## License
 
 Open sourced under the [MIT license](LICENSE.md) <3
+
+## TODO
+
+* Review license
+* Convert archive.html to .md (move html to _includes)
