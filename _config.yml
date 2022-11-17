@@ -1,10 +1,11 @@
-title : Wall-E - Jekyll
-description: 'A Modern Jekyll Theme'
+title : CIRCAE
+description: 'Somos el Centro de Investigación en Robótica, Control
+              y Automatización Electrónica - CIRCAE'
 
 markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
-plugins: [jekyll-gist]
+plugins: [jekyll-gist, jekyll-paginate]
 permalink: /:year/:month/:title.html
